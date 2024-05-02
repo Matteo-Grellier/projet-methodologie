@@ -8,5 +8,5 @@ import com.demomvc.demomvc.entities.*;;
 @Repository
 public interface EtudiantRepository extends CrudRepository<Etudiant, Integer> {
 
-	public Etudiant findByName(String name);
+	public Etudiant findByName(String nom);
 }

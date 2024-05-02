@@ -36,8 +36,8 @@ public class EtudiantRepositoryTests {
 	@Test
 	@Order(2)
 	public void testFindProductByName() {
-		Etudiant etudiant = repo.findByName("14"); // findByName
-		assertThat(etudiant.getAge()).isEqualTo("14");
+		Etudiant etudiant = repo.findByName("Ethienne"); // findByName
+		assertThat(etudiant.getAge()).isEqualTo("Ethienne");
 	}
 
 	@Test
